@@ -1,0 +1,9 @@
+{
+  "name": "pintos-checker-result",
+  "version": "1.0.0",
+  "description": "Verifica resultados de las pruebas",
+  "main": "index.js",
+  "repository": "git@github.com:gbenm/pintos-checker-result.git",
+  "author": "gbenm <benyamin.galeano@gmail.com>",
+  "license": "MIT"
+}
