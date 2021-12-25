@@ -1,6 +1,5 @@
 {
   "name": "pintos-checker-result",
-  "type": "module",
   "version": "1.0.0",
   "description": "Verifica resultados de las pruebas",
   "main": "index.mjs",
