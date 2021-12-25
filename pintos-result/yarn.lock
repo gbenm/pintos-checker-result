@@ -16,16 +16,6 @@
   dependencies:
     tunnel "0.0.6"
 
-"@mostly-adequate/support@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mostly-adequate/support/-/support-2.0.1.tgz#6d5bb5e57bb38a9f5ecdd75e71356e1d880f0439"
-  integrity sha512-+16tUURaxiGFGBiYcI4Xu82UsMLSxc2F5DVGimMVkkP/tO+wRNuDPUJTW9YMY7UlHW9KQ9XRHShDEubqliy7vA==
-
-folktale@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/folktale/-/folktale-2.3.2.tgz#38231b039e5ef36989920cbf805bf6b227bf4fd4"
-  integrity sha512-+8GbtQBwEqutP0v3uajDDoN64K2ehmHd0cjlghhxh0WpcfPzAIjPA03e1VvHlxL02FVGR0A6lwXsNQKn3H1RNQ==
-
 tunnel@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"

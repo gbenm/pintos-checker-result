@@ -1,6 +1,6 @@
 /** Modifique las funciones para personalizar los fallos */
 
-export function threads({grade, total}) {
+export function threads(grade, total) {
   return grade > 30;
 }
 

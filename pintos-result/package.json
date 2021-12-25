@@ -8,8 +8,6 @@
   "author": "gbenm <benyamin.galeano@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@mostly-adequate/support": "^2.0.1",
-    "folktale": "^2.3.2"
+    "@actions/core": "^1.6.0"
   }
 }
