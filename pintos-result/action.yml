@@ -1,0 +1,10 @@
+name: 'pintos-result'
+
+inputs:
+  results:
+    required: true
+    description: "Los resultados de la fase"
+
+runs:
+  using: "node12"
+  main: "index.js"
