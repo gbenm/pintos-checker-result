@@ -3,20 +3,20 @@
 
 
 "@actions/core@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.6.0.tgz#0568e47039bfb6a9170393a73f3b7eb3b22462cb"
-  integrity sha512-NB1UAZomZlCV/LmJqkLhNTqtKfFXJZAUPcfl/zqG7EfsQdeUJtaWO98SGbuQ3pydJ3fHl2CvI/51OKYlCYYcaw==
+  "integrity" "sha512-NB1UAZomZlCV/LmJqkLhNTqtKfFXJZAUPcfl/zqG7EfsQdeUJtaWO98SGbuQ3pydJ3fHl2CvI/51OKYlCYYcaw=="
+  "resolved" "https://registry.npmjs.org/@actions/core/-/core-1.6.0.tgz"
+  "version" "1.6.0"
   dependencies:
     "@actions/http-client" "^1.0.11"
 
 "@actions/http-client@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-1.0.11.tgz#c58b12e9aa8b159ee39e7dd6cbd0e91d905633c0"
-  integrity sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg==
+  "integrity" "sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg=="
+  "resolved" "https://registry.npmjs.org/@actions/http-client/-/http-client-1.0.11.tgz"
+  "version" "1.0.11"
   dependencies:
-    tunnel "0.0.6"
+    "tunnel" "0.0.6"
 
-tunnel@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
-  integrity sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==
+"tunnel@0.0.6":
+  "integrity" "sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg=="
+  "resolved" "https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz"
+  "version" "0.0.6"
