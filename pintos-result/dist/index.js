@@ -1563,14 +1563,6 @@ module.exports = require("assert");
 
 /***/ }),
 
-/***/ 81:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("child_process");
-
-/***/ }),
-
 /***/ 361:
 /***/ ((module) => {
 
@@ -1685,15 +1677,14 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 const { getInput, setFailed } = __nccwpck_require__(626);
-const { execSync } = __nccwpck_require__(81);
+//const { execSync } = require("child_process");
 
 //const path = `${__dirname}/../pintos.checker.mjs`;
-const path = `/home/runner/work/pintos-checker-result-test/pintos-checker-result-test/pintos.checker.mjs`;
-console.log(__dirname);
-console.log(execSync(`ls --color /home/runner/work/pintos-checker-result-test/pintos-checker-result-test/`).toString());
-console.log("------------------");
-console.log(execSync(`ls --color /home/runner/work/pintos-checker-result-test/`).toString());
-
+const path = `../../pintos.checker.mjs`;
+//console.log(__dirname);
+//console.log(execSync(`ls --color /home/runner/work/pintos-checker-result-test/pintos-checker-result-test/`).toString());
+//console.log("------------------");
+//console.log(execSync(`ls --color /home/runner/work/pintos-checker-result-test/`).toString());
 
 console.log(path);
 
