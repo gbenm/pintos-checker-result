@@ -1,4 +1,4 @@
-const { getInput, setFailed } = require("@actions/core");
+const { getInput, setFailed } = require("./node_modules/@actions/core");
 //const { execSync } = require("child_process");
 
 //const path = `${__dirname}/../pintos.checker.mjs`;
