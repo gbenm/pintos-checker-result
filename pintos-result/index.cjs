@@ -1,6 +1,6 @@
 const { getInput, setFailed } = require("@actions/core");
 
-const path = `../../pintos.checker.mjs`;
+const path = `../../pintos.checker.cjs`;
 const phase = getInput("phase");
 const results = getInput("results");
 
@@ -19,16 +19,19 @@ const getGrade = (result, {gradeExpr}) => {
 
 const executeCheck = (name, utils, {grade, total}) => utils[name](grade, total);
 
-customImport(path).then((utils) => {
-  const grade = getGrade(results, utils);
-  const pass = executeCheck(phase, utils, grade);
+const main = (getHelpers) => {
+  const utils = getHelpers(path)
+
+  const grade = getGrade(results, utils)
+  const pass = executeCheck(phase, utils, grade)
 
   if (!pass) {
-    setFailed("No cumple la regla");
+    setFailed("No cumple la regla")
   }
 
-  const {showResults} = utils;
+  const {showResults} = utils
 
-  showResults(console.log, results, grade.grade, grade.total);
-});
+  showResults(console.log, results, grade.grade, grade.total)
+}
 
+main(require)

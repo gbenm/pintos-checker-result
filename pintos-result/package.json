@@ -2,11 +2,19 @@
   "name": "pintos-checker-result",
   "version": "1.0.0",
   "description": "Verifica resultados de las pruebas",
-  "main": "index.mjs",
+  "main": "index.cjs",
   "repository": "git@github.com:gbenm/pintos-checker-result.git",
   "author": "gbenm <benyamin.galeano@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "browserify ./index.cjs -o dist/index.js"
+  },
   "dependencies": {
     "@actions/core": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.15.1"
   }
 }
