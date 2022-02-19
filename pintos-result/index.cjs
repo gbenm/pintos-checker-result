@@ -1,5 +1,7 @@
 const { getInput, setFailed } = require("@actions/core");
 
+process.stdout.write.bind(process.stdout)
+
 const path = `../../pintos.checker.cjs`;
 const phase = getInput("phase");
 const results = getInput("results");
